@@ -35,16 +35,13 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            We help our customers to physically realice their ideas, from a thought or dream to realitity.
             <br />
-            eget augue amet aliquet nisl cep donec
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Our team has many years of experience in Product Design, 3D CAD work,
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Rendering, the packaging industry and manufacturing of the product.
           </p>
         </header>
         <ul className="icons major">

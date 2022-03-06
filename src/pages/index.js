@@ -70,15 +70,8 @@ const IndexPage = () => (
           <img src={pic1} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <h2>General Design</h2>
+          <p>General aesthetic, user experience, engineering and manufacturing approach</p>
         </div>
       </section>
       <section className="spotlight">
@@ -86,15 +79,8 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <h2>Detailed Engineering </h2>
+          <p>All of the design and engineering work required before a prototype can be made, including 3D modeling, calculations, simulations, and more.</p>
         </div>
       </section>
       <section className="spotlight">
@@ -102,15 +88,8 @@ const IndexPage = () => (
           <img src={pic3} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          <h2>Prototype</h2>
+          <p>Phase 3 is the fabrication, assembly, and testing/refinement</p>
         </div>
       </section>
     </section>

@@ -157,12 +157,12 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
+      <div className="image">
+        <img src={logodog} alt="" />
+      </div>
     </section>
 
     <section id="cta" className="wrapper style4">
-        <div className="image">
-          <img src={logodog} alt="" />
-        </div>
       <div className="inner">
         <header>
           <h2>We	bring to LIFE your IDEAS</h2>

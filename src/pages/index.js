@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/5.jpg';
+import pic2 from '../assets/images/9.jpg';
+import pic3 from '../assets/images/59.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>

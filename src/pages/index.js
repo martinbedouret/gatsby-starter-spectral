@@ -11,6 +11,9 @@ import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
+      <div className="image">
+        <img src={pic1} alt="" />
+      </div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>

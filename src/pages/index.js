@@ -6,6 +6,7 @@ import Scroll from '../components/Scroll';
 
 
 import logo from '../assets/images/logo.png';
+import logodog from '../assets/images/logo-dog.jpg';
 import pic1 from '../assets/images/9.jpg';
 import pic2 from '../assets/images/5.jpg';
 import pic3 from '../assets/images/59.jpg';
@@ -159,9 +160,12 @@ const IndexPage = () => (
     </section>
 
     <section id="cta" className="wrapper style4">
+        <div className="image">
+          <img src={logodog} alt="" />
+        </div>
       <div className="inner">
         <header>
-          <h2>We	bring LIFE to	your IDEAS</h2>
+          <h2>We	bring to LIFE your IDEAS</h2>
         </header>
         <ul className="actions stacked">
           <li>

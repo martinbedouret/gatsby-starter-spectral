@@ -1587,6 +1587,8 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		padding-left: 10%;
+		padding-right: 10%;
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
@@ -1901,8 +1903,7 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/12.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
-			background-repeat: no-repeat;
+			background-position: center center; 
 			background-size: cover;
 			padding-top: 0;
 		}

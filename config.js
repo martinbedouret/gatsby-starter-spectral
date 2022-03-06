@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'We design unique products for startups, companies, and everything in between',
-  subHeading: 'We are an international multidisciplinary design studio based in Buenos Aires and Stockholm',
+  subHeading: 'We are an international multidisciplinary design studio based in Buenos Aires and Stockholm, with small to midsize customers all over Europe, South America and the USA',
   // social
   socialLinks: [
     {

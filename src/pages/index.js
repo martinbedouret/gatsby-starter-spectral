@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
+
+import logo from '../assets/images/logo.png';
 import pic1 from '../assets/images/9.jpg';
 import pic2 from '../assets/images/5.jpg';
 import pic3 from '../assets/images/59.jpg';
@@ -12,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="image">
-        <img src={pic1} alt="" />
+        <img src={logo} alt="" />
       </div>
       <div className="inner">
         <h2>{config.heading}</h2>

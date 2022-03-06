@@ -13,7 +13,7 @@ import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
-      <div className="image">
+      <div className="logo">
         <img src={logo} alt="" />
       </div>
       <div className="inner">

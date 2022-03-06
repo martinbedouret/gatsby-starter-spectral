@@ -610,7 +610,17 @@
 		}
 	}
 
-/* Image */
+    
+	.logo {
+		border: none;
+		opacity: 1;
+		outline: 0;
+		position: absolute;
+		text-align: center;
+		z-index: 1;
+	}
+
+	/* Image */
 
 	.image {
 		border-radius: 3px;

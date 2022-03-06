@@ -157,7 +157,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-      <div className="image responsive">
+      <div className="responsive">
         <img src={logodog} alt="" />
       </div>
     </section>

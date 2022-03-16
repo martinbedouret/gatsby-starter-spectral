@@ -1,15 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
 
 import logo from '../assets/images/logo.png';
 import logodog from '../assets/images/logo-dog.jpg';
 import pic1 from '../assets/images/9.jpg';
 import pic2 from '../assets/images/5.jpg';
 import pic3 from '../assets/images/59.jpg';
+import banner from '../assets/images/12.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -112,50 +114,16 @@ const IndexPage = () => (
             ullamcorper.
           </p>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
+            <Carousel>
+                <div>
+                    <img src={banner} />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={banner} />
+                    <p className="legend">Legend 1</p>
+                </div>
+            </Carousel>
       </div>
       <div className="responsive">
         <img src={logodog} alt="" />
@@ -183,5 +151,6 @@ const IndexPage = () => (
     </section>
   </Layout>
 );
+
 
 export default IndexPage;

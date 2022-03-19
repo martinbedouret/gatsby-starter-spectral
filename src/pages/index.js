@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { Link } from 'gatsby';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -12,7 +12,12 @@ import pic1 from '../assets/images/9.jpg';
 import pic2 from '../assets/images/5.jpg';
 import pic3 from '../assets/images/59.jpg';
 import banner from '../assets/images/12.jpg';
+import renderbox from '../assets/images/renderbox.jpg';
+import render from '../assets/images/render.jpg';
+import chair from '../assets/images/chair.jpg';
 import config from '../../config';
+
+const handleSlideClick=()=>{};
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -105,7 +110,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Potfolio</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
             eleifend
@@ -114,13 +119,19 @@ const IndexPage = () => (
             ullamcorper.
           </p>
         </header>
-            <Carousel>
+            <Carousel >
                 <div>
+                  <Link to="/Bootski">
                     <img src={banner} />
+                    <p className="legend">Product: Bootski | Company: Stolt of Sweden</p>
+                    </Link>
+                </div>
+                <div>
+                    <img src={chair} />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src={banner} />
+                    <img src={render} />
                     <p className="legend">Legend 1</p>
                 </div>
             </Carousel>

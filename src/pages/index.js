@@ -6,7 +6,6 @@ import { Carousel } from 'react-responsive-carousel';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import logo from '../assets/images/logo.png';
 import logodog from '../assets/images/logo-dog.jpg';
 import pic1 from '../assets/images/9.jpg';
 import pic2 from '../assets/images/5.jpg';
@@ -17,13 +16,9 @@ import render from '../assets/images/render.jpg';
 import chair from '../assets/images/chair.jpg';
 import config from '../../config';
 
-const handleSlideClick=()=>{};
 const IndexPage = () => (
   <Layout>
     <section id="banner">
-      <div className="logo">
-        <img src={logo} alt="" />
-      </div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -102,7 +97,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>Prototype</h2>
-          <p>Phase 3 is the fabrication, assembly, and testing/refinement</p>
+          <p>Fabrication, assembly, and testing/refinement</p>
         </div>
       </section>
     </section>
@@ -110,14 +105,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Potfolio</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>Portfolio</h2>
         </header>
             <Carousel >
                 <div>
@@ -148,7 +136,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
+            <a href="mailto:20designing@gmail.com" className="button fit primary">
               Contact Us
             </a>
           </li>

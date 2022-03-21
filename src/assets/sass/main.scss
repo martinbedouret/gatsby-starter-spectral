@@ -615,9 +615,10 @@
 		border: none;
 		opacity: 1;
 		outline: 0;
-		text-align: center;
+		padding-left: 20px;
+		margin-left: 20px;
 		align-self: center;
-		padding: 40px;
+		padding-top: 10px;
 		z-index: 1;
 	}
 
@@ -1494,7 +1495,6 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 3em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
